@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: 'Abhinav Soni',
-      url: 'https://imaditya.vercel.app',
+      // url: 'https://imaditya.vercel.app',
     },
   ],
   creator: 'Abhinav Soni',
