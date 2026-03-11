@@ -7,7 +7,7 @@ import {
 import Pager from '@/components/pager';
 import { Button } from '@/components/ui/button';
 import { siteConfig } from '@/config/site';
-import { ExternalLink, Mail } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 
 const IntroductionPage = async () => {

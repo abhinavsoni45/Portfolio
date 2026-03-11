@@ -184,7 +184,7 @@ const Stats = async () => {
               key={index}
               title={card.title}
               value={card.value || 'Limit Reached'}
-              className={card.className}
+              // className={card.className}
             />
           ))}
         </div>
