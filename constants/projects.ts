@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: 'Dukan | All in-One E-commerce Platform',
+    title: 'Dukan | All in-One Platform for Jewellers',
     slug: 'dukan',
     tagline:
-      'Dukan is a comprehensive e-commerce platform built with Nest.js, React, and MongoDB, designed to provide a seamless shopping experience for users and efficient management tools for sellers.',
+      'Dukan is a comprehensive platform built with Nest.js, React, and MongoDB, designed to provide a seamless shopping experience for users and efficient management tools for sellers.',
     overview:
       'Backend infrastructure built with Nest.js, providing a robust and scalable foundation for the e-commerce platform. The frontend is built using React and Vite, focusing on performance and smooth navigation. Redux ensures efficient state management for cart operations and product handling, while Tailwind CSS provides a clean and responsive interface optimized for all devices.',
     features: [
@@ -78,20 +78,28 @@ export const projects = [
     },
   },
   {
-    title: 'GitHub Profile Viewer | Instant GitHub Insights',
-    slug: 'github-profile-viewer',
+    title: 'Chat Application | Real-Time Messaging Platform',
+    slug: 'chat-application',
     tagline:
-      'An interactive web app to instantly view GitHub profiles with clean UI built using HTML, CSS, and JavaScript.',
+      'A real-time messaging application built with React and Firebase, featuring instant communication and seamless user experience.',
     overview:
-      'GitHub Profile Viewer allows users to instantly fetch and view detailed GitHub profiles using the GitHub REST API. The app displays essential user information including profile picture, name, bio, followers, repositories, and more. With a responsive and minimalist interface, it offers a smooth experience for exploring any GitHub account directly from the browser.',
+      'The Chat Application is a modern real-time messaging platform developed using React for the frontend and Firebase for the backend. It provides users with a smooth and intuitive interface for instant communication, supporting features like one-on-one chats, group conversations, and real-time notifications.',
     features: [
-      "Instantly search and view any GitHub user's profile.",
-      'Displays profile picture, username, bio, followers, and repositories.',
-      'Responsive and clean user interface for better readability.',
-      'Utilizes GitHub REST API for fetching real-time profile data.',
-      'Lightweight structure ensuring fast performance and accessibility.',
+      'Instant messaging with real-time updates.',
+      'User-friendly interface for seamless communication.',
+      'Integration with Firebase for secure and scalable data management.',
+      'Support for one-on-one and group conversations.',
+      'Push notifications for immediate alert delivery.',
+      'Responsive design for an optimal viewing experience on all devices.',
     ],
-    techStack: ['HTML', 'CSS', 'JavaScript', 'GitHub API'],
+    techStack: [
+      'React',
+      'Firebase',
+      'Tailwind CSS',
+      'Vite',
+      'Redux',
+      'Nest.js',
+    ],
     challenges: [
       'Fetching and managing API data efficiently with JavaScript.',
       'Designing a clean, minimal, and responsive interface.',
@@ -107,7 +115,7 @@ export const projects = [
     feedback: true,
     links: {
       // live: 'https://abhin.github.io/GitHub-Profile-Viewer/',
-      // github: 'https://github.com/abhin/GitHub-Profile-Viewer',
+      github: 'https://github.com/abhinavsoni45/chatter/',
     },
   },
   {
@@ -140,7 +148,7 @@ export const projects = [
     feedback: false,
     links: {
       live: 'https://nike-reimagined-mu.vercel.app/',
-      // github: 'https://github.com/abhin/nike-reimagined',
+      github: 'https://github.com/abhinavsoni45/nike-store',
     },
   },
   {
